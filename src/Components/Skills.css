@@ -1,0 +1,153 @@
+.Skills{
+    color: white;
+    margin-left: 20px;
+    width: 100%;
+    margin-top: 70px;
+    height: auto;
+    margin-right: 20px;
+}
+.opn-tag{
+    font-size: 30px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: #00cfe8;
+    --second-color: #1b1b1b;
+    --third-color: #d4d4d4;
+    --bg-color: #0e101c;
+    --main-grid: repeat(auto-fill, minmax(300px, 1fr));
+    --main-padding: 40px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.skills {
+    padding-bottom: var(--main-padding);
+    background-color: var(--bg-color);
+    text-align: center;
+}
+
+.skills .text {
+    padding-bottom: 20px;
+}
+
+.skills h2 {
+    font-size: 35px;
+    color: var(--second-color);
+    padding-bottom: 20px;
+}
+
+.skills h2 span {
+    color: var(--main-color);
+}
+
+.skills p {
+    font-size: 18px;
+    color: var(--second-color);
+    font-weight: 400;
+}
+
+.skills .skill-card {
+    display: grid;
+    margin-left: 20px;
+    grid-template-columns: var(--main-grid);
+    grid-gap: 60px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.skills .skill-card .card{
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(46, 67, 184, 0.904);
+    color: var(--third-color);
+    transition: 1s;
+    position: relative;
+}
+
+.skills .card h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.skills .card p{
+    line-height: 1.7;
+    font-size: 16px;
+    color: var(--third-color);
+}
+
+.skills .card:hover{
+    transform: scale(1.10);
+    transition: 1s;
+}
+
+
+.skills .card:hover h4, .skills .card:hover p{
+    color: white;
+    transition: 1s;
+}
+
+
+
+.support{
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  background-color: var(--bg-color);
+}
+
+.support i{
+  color: var(--main-color);
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+.hide1{
+  display: none;
+  margin-left: 5px;
+  margin-right: 10px;
+  color: var(--main-color);
+  font-size: 15px;
+}
+
+.support a:hover + .hide1{
+  display: block;
+  transition: all 1s;
+}
+
