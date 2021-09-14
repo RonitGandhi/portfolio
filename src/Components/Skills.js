@@ -1,7 +1,7 @@
 import React from 'react'
 import './Skills.css'
-import { Devicons, DiAndroid, DiCss3, DiFirebase, DiGithub, DiGithubBadge, DiHtml5, DiJava, DiMongodb, DiPython, DiReact } from "react-icons/di";
-import {BsStarFill, BsStarHalf} from "react-icons/bs"
+import { DiAndroid,DiFirebase,DiJava, DiMongodb, DiPython, DiReact } from "react-icons/di";
+import {BsStarFill} from "react-icons/bs"
 function Skills() {
 
     return (
